@@ -1,0 +1,7 @@
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\bin\Debug\assignment1.exe.config
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\bin\Debug\assignment1.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\bin\Debug\assignment1.pdb
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\obj\Debug\assignment1.csprojAssemblyReference.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\obj\Debug\assignment1.csproj.CoreCompileInputs.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\obj\Debug\assignment1.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment1\assignment1\assignment1\obj\Debug\assignment1.pdb
