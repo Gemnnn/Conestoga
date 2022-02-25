@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Vitamins Club</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../styles/feedback.css">
+
+    </head>
+    <body>
+    <div id="box">
+        <header>
+            <p><img src="../images/v.jpg">itamins Club</p>
+        </header>
+        <nav id="navi">
+            <ul>
+                <li><a href="../index.html">Home</a>
+                    <ul>
+                        <li><a href="#">About Vitamins</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/images.html">Image</a>
+                    <ul>
+                        <li><a href="#">Fat-soluble</a>
+                            <ul>
+                                <li><a href="#">Vitamins A</a></li>
+                                <li><a href="#">Vitamins D</a></li>
+                                <li><a href="#">Vitamins E</a></li>
+                                <li><a href="#">Vitamins K</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Water-soluble</a>
+                            <ul>
+                                <li><a href="#">Vitamins B</a>
+                                    <ul>
+                                        <li><a href="#">B1  (Thiamin)</a></li>
+                                        <li><a href="#">B2  (Riboflavin)</a></li>
+                                        <li><a href="#">B3  (Niacin)</a></li>
+                                        <li><a href="#">B5  (Pantothenic acid)</a></li>
+                                        <li><a href="#">B6  (Pyridoxin)</a></li>
+                                        <li><a href="#">B7  (Biotin)</a></li>
+                                        <li><a href="#">B9  (Folate)</a></li>
+                                        <li><a href="#">B12 (Cobalamin)</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Vitamins C</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>                
+                <li><a href="../pages/media.html">Media</a>
+                    <ul>
+                        <li><a href="#">Audio</a></li>
+                        <li><a href="#">Vidio</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/feedback.html">Feedback</a>
+                    <ul>
+                        <li><a href="pages/subpages/contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <aside id="sidebarA">
+            <a href="../index.html"><img src="../thumbnails/home.jpg"><br>Home</a>
+            <a href="../pages/images.html"><img src="../thumbnails/images.jpg"><br>Images</a>
+            <a href="../pages/media.html"><img src="../thumbnails/media.jpg"><br>Media</a>
+            <a href="../pages/feedback.html"><img src="../thumbnails/feedback.jpg"><br>Feedback</a>
+        </aside>
+        <main>
+            <p>Please enter your information</p>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">&nbsp;&nbsp;&nbsp;Name:</label>
+                    <input type="name" name="name" id="name" autofocus><br>
+                    <label for="address">Address:</label>   
+                    <input type="address" name="address" id="address"><br>
+                    <label for="email">&nbsp;E-mail:</label>
+                    <input type="email" name="email" id="email"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Vitamins Information</legend>
+                    <label for="ingestion">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vitamins ingestion:</label>
+                    <select name="ingestion" id="ingestion">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select><br>
+                    <label for="amount">Amount of intake Vitamins:</label>
+                    <select name="amount" id="amount">
+                        <option value="0">0</option>
+                        <option value="1">Once a week</option>
+                        <option value="2">Two times a week</option>
+                        <option value="3">More that 3 times a week</option>
+                    </select><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Types of Vitamins you take</legend>
+                    <input type="checkbox" name="type1" value="a">
+                    <label for="a">Vitamin A:</label><br>
+                    <input type="checkbox" name="type2" value="b">
+                    <label for="b">Vitamin B:</label><br>
+                    <input type="checkbox" name="type3" value="c">
+                    <label for="c">Vitamin C:</label><br>
+                    <input type="checkbox" name="type4" value="d">
+                    <label for="d">Vitamin D:</label><br>
+                    <input type="checkbox" name="type5" value="e">
+                    <label for="e">Vitamin B:</label><br>
+                    <input type="checkbox" name="type6" value="f">
+                    <label for="f">&nbsp;&nbsp;&nbsp;Others:</label><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Comments:</legend>
+                    <textarea name="comment" placeholder="If you have any comments, please enter them here."></textarea>
+                </fieldset>
+                <fieldset id="buttons">
+                    <legend>Submit your info</legend>
+                    <label>&nbsp;</label>
+                    <input type="submit" id="submit" value="submit"><br><br>
+                </fieldset>
+                <div class="message">
+                    <span class="close" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    <strong>Danger!</strong><br>If you do not submit it, all info will be lost.
+                </div>
+            </form>
+        </main>
+        <aside id="sidebarB">
+            <p>Other options</p>
+            <fieldset>
+                <legend>Favorite fruit</legend>
+                <input type="checkbox" name="type1" value="apple">
+                <label for="a">&nbsp;Apple:</label><br>
+                <input type="checkbox" name="type2" value="banana">
+                <label for="b">Banana:</label><br>
+                <input type="checkbox" name="type3" value="cherry">
+                <label for="c">Cherry:</label><br>
+                <input type="checkbox" name="type4" value="melon">
+                <label for="d">&nbsp;Melon:</label><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" value="male">
+                <label for="male">&nbsp;&nbsp;Male:</label><br>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female:</label><br>
+                <input type="radio" name="gender" value="other">
+                <label for="other">&nbsp;Other:</label><br><br>
+            </fieldset>
+        </aside>
+        <footer>
+            <p>Copyright 2020 - Byounguk Min</p>
+        </footer>
+    </div>    
+    </body>
+</html>

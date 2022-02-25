@@ -1,0 +1,7 @@
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\bin\Debug\A2MinByoungukP2.exe.config
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\bin\Debug\A2MinByoungukP2.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\bin\Debug\A2MinByoungukP2.pdb
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\obj\Debug\A2MinByoungukP2.csprojAssemblyReference.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\obj\Debug\A2MinByoungukP2.csproj.CoreCompileInputs.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\obj\Debug\A2MinByoungukP2.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\PROG1781\assignments\Assignment2\A2MinByoungukP2\A2MinByoungukP2\obj\Debug\A2MinByoungukP2.pdb

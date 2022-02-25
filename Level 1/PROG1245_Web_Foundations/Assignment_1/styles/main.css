@@ -1,0 +1,324 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	font-size:0.825em;
+	color:#605b4f;
+	font-family:Arial, Helvetica, sans-serif;
+	/* background-image: url(../images/aircooled.png); */
+}
+div {
+	position: relative;
+	z-index: 1;
+}
+div:after {
+	background-image: url(../images/background3.jpg);
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-size: 100%;
+	opacity: 0.8!important;
+	content: "";
+	width: 100%;
+	height: 102%;
+	z-index: -1;
+
+}
+
+/* Hyperlink Styles: */
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	font-weight: bolder;
+}
+
+a img{
+	border:none;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+	font-family:Helvetica, "Myriad Pro","Helvetica Neue",Arial,Sans-Serif;
+	text-shadow:0 2px 3px black;
+}
+
+h1{
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+}
+
+h3{
+	/* The slogan text */
+	font-family:cursive,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:2em;
+	font-weight:normal;
+	margin:0 0 1em;
+}
+hgroup h3 {
+	font-size: 193%;
+}
+
+h2{
+	font-size:2.2em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+}
+.go_up {
+	float: right; 
+	padding-right: 15px;  
+
+}
+.arrow {
+	display: inline; background: #fbca01; position: relative;
+	width: 10px; height: 10px;
+}
+.arrow:after {
+	content: ''; position: absolute; width: 0; height: 0; border-style: solid;
+}
+.arrow.upp:after {
+	border-width: 20px 15px;
+}
+.arrow.upp:after {
+	border-color: transparent transparent #fbca01 transparent; top: -10px; left: -20px;
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+.pbold{
+	font-size:1.2em;
+	font-weight:bold;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+}
+
+.line{
+	/* The dividing line: */
+	border-bottom:3px solid #efe9c8;
+	margin:1em 0;
+	overflow:hidden;
+}
+.line1{
+	/* The dividing line: */
+	border-bottom:3px solid #dd7777;
+	margin:1em 0;
+	overflow:hidden;
+}
+article p {
+	color: gray;
+}
+
+article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+nav{
+	background:url(../images/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding:0 5px;
+	position:absolute;
+	right:0;
+	top:4em;
+	
+	border:1px solid #FCFCFC;
+
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+nav ul li{
+	display:inline;
+	text-align: center;
+
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#dbe2ff;
+}
+
+nav, article, nav ul li a,figure, main, aside{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+/* Article styles: */
+
+#page{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+article{
+	background-color:#fef8e8;
+	margin:3em 0;
+	padding:20px;
+	text-shadow:1px 1px 1px black;
+}
+
+figure{
+	border:3px solid #ac5e59;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+figure:hover{
+	-moz-box-shadow:0 0 2px #4D7788;
+	-webkit-box-shadow:0 0 2px #4D7788;
+	box-shadow:0 0 2px #4D7788;
+}
+
+/* mian styling */
+main {
+	width: 44%;
+	height: 750px;
+	background-color: #fef8e8;
+	margin: 3em 0;
+	padding: 20px;
+	float: left;
+}
+
+main p {
+	color: gray;
+	padding-bottom:5px;
+}
+.center {
+	text-align: center;
+	margin-top: 10px;
+}
+/* aside styling */
+aside {
+	width: 44%;
+	height: 750px;
+	background-color: #fef8e8;
+	margin: 3em 0;
+	margin-left: 0;
+	padding: 20px;
+	float: right;
+}
+aside p {
+	color: gray;
+	padding-bottom:5px;
+}
+
+#sidebarA {
+	width: 20%;
+	height: 750px;
+	background-color: #fef8e8;
+	float: left;
+	margin-right: 1.3em;
+}
+
+#sidebarB {
+	width: 20%;
+	height: 750px;
+	background-color: #fef8e8;
+	float: right;
+}
+.sidetext {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: gray;
+	margin: 10px;
+	padding: 5px;
+	font-size: 130%;
+}
+
+/* Footer styling: */
+
+footer{
+	clear: both;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.9em;
+	font-weight: bold;
+}
+
+
+footer p{
+	color:#232c43;
+	margin-bottom:-1em;
+	position:relative;
+}
+
+footer a,footer a:visited{
+	color:#232c43;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#234d20;
+	color: white;
+}
+
+footer a.by{
+	float:left;
+
+}
+
+footer a.up{
+	float:right;
+}

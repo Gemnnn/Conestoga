@@ -1,0 +1,13 @@
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\bin\Debug\A5Group23P1.exe.config
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\bin\Debug\A5Group23P1.exe
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\bin\Debug\A5Group23P1.pdb
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\obj\Debug\A5Group23P1.csprojAssemblyReference.cache
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\obj\Debug\A5Group23P1.csproj.CoreCompileInputs.cache
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\obj\Debug\A5Group23P1.exe
+C:\Users\gooro\Desktop\code\assignments\A5Group23P1\A5Group23P1\obj\Debug\A5Group23P1.pdb
+E:\Root\Onedrive\OneDrive - Conestoga College\Conestoga\CPA\Programming Concepts\code\PROG1781_ProgrammingConcept\assignments\Assignment#5\assignments\A5Group23P1_2\A5Group23P1\bin\Debug\A5Group23P1.exe.config
+E:\Root\Onedrive\OneDrive - Conestoga College\Conestoga\CPA\Programming Concepts\code\PROG1781_ProgrammingConcept\assignments\Assignment#5\assignments\A5Group23P1_2\A5Group23P1\bin\Debug\A5Group23P1.exe
+E:\Root\Onedrive\OneDrive - Conestoga College\Conestoga\CPA\Programming Concepts\code\PROG1781_ProgrammingConcept\assignments\Assignment#5\assignments\A5Group23P1_2\A5Group23P1\bin\Debug\A5Group23P1.pdb
+E:\Root\Onedrive\OneDrive - Conestoga College\Conestoga\CPA\Programming Concepts\code\PROG1781_ProgrammingConcept\assignments\Assignment#5\assignments\A5Group23P1_2\A5Group23P1\obj\Debug\A5Group23P1.csproj.CoreCompileInputs.cache
+E:\Root\Onedrive\OneDrive - Conestoga College\Conestoga\CPA\Programming Concepts\code\PROG1781_ProgrammingConcept\assignments\Assignment#5\assignments\A5Group23P1_2\A5Group23P1\obj\Debug\A5Group23P1.exe
+E:\Root\Onedrive\OneDrive - Conestoga College\Conestoga\CPA\Programming Concepts\code\PROG1781_ProgrammingConcept\assignments\Assignment#5\assignments\A5Group23P1_2\A5Group23P1\obj\Debug\A5Group23P1.pdb
