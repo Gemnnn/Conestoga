@@ -1,0 +1,157 @@
+	/* Universal reset: */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body{
+    color:#605b4f;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1920px;
+    height: auto;
+    margin-left: 0.1em;
+}
+a{
+    text-decoration: none;
+    color: Green;
+}
+legend {
+    margin-left: 0.5em;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* Header */
+header{
+    width: 1912x;
+}
+header h1 {
+    color: orange;
+}
+header h3 {
+    color: gray;
+    margin-left: 10em;
+}
+header h1, h3{
+    margin-left: 5em;
+}
+/* Navigation Menu Bar */
+#menu{
+    clear: left;
+}
+#menu ul li{
+    float: left;
+	text-align: center;
+	display: block;
+	width: 287.4px;
+	padding: 1em;
+    margin-top: 1em;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+#menu ul li:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* Aside1 */
+#leftside ul li{
+    display: inline;
+    text-align: center;
+    display: block;
+    padding: 7px 10px 4px;
+    border: 3px solid gray;
+    margin: .7em;
+}
+#aside1{
+    float: left;
+    width: 160px;
+	padding: 20px 50px 20px 30px;  
+    border-right: 1px solid gray;
+    height: 804px;
+}
+/* Main */
+main{
+    width: 910px;
+    height: 804px;
+    float: left;
+    border-right: 1px solid gray;  
+    padding: 20px; 
+}
+main h3{
+    padding: .5em 0 0 .5em;
+    font-size: 200%;
+    font-weight: bold;
+}
+main form h4{
+    margin-left: 1.5em;
+    font-size: 130%;
+    color:indianred;
+}
+main h3{
+    margin-left: 0em;
+}
+/* Aside2 */
+#aside2{
+    float: left;
+    width: 360px;
+    height: 804px;
+    border-right: 1px solid gray;  
+    padding: 20px; 
+}
+#aside2 h3{
+    font-size: 140%;
+}
+#aside2 form fieldset{
+    padding-left: 1.2em;
+    margin-top: .5em;
+    margin-bottom: .3em;
+}
+.required {
+    color: red;
+}
+.errorMessage {
+    color:red;
+    font-size: 90%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#aside2 form input, select{
+    float:right;
+    margin-right: 1em;
+}
+#btnOrder{
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 150px;
+    height: 40px;
+}
+/* Aside3 */
+#aside3{
+    float: left;
+    width: 282px;
+    height: 804px;
+    border-right: 1px solid gray;  
+    padding: 20px; 
+}
+#aside3 h3{
+    font-size: 140%;
+}
+#aside3 form label{
+    font-size: 110%;
+}
+#aside3 form span{
+    font-weight: bold;
+    font-size: 120%;
+}
+/* Footer */
+

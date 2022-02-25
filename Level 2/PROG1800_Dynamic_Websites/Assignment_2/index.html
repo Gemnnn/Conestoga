@@ -1,0 +1,197 @@
+<!--
+    [Assignment 2]    
+    
+    Name : Byounguk Min
+    Student Number: 8703561
+ -->
+
+<html lang="en">
+<head>
+    <title>Byounguk's Closet</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <meta charset="uft-8">
+</head>
+<body>
+    <header>
+        <h1>Byounguk's Closet</h1>
+        <h3>Everything we love about fashion</h3>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Ranking</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Stlye</a></li>
+            <li><a href="#">Special</a></li>
+            <li><a href="#">My Page</a></li>
+        </ul>
+    </nav>
+    <aside id="aside1">
+        <nav id="leftside">
+            <ul>
+                <li><a href="#">Best</a></li>
+                <li><a href="#">Top</a></li>
+                <li><a href="#">Outer</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Onepiece</a></li>
+                <li><a href="#">Skirt</a></li>
+                <li><a href="#">Bag</a></li>
+                <li><a href="#">Headwear</a></li>
+                <li><a href="#">Shoes</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h3>Items</h3>
+        <form name="items">
+            <fieldset>
+                <legend>Top</legend>
+                <h4>$6 for each T-shirt</h4>
+                <img src="images/yellow.jpg" width="150px" height="150px">
+                <input type="checkbox" id="item1" name="tshirt" value="Yellow" onclick="itemChecked()">
+                <label for="yellow">Yellow</label>
+                <img src="images/purple.jpg" width="150px" height="150px">
+                <input type="checkbox" id="item2" name="tshirt2" value="Purple" onclick="itemChecked()">
+                <label for="Purple">Purple</label>
+                <img src="images/orange.jpg" width="150px" height="150px">
+                <input type="checkbox" id="item3" name="tshirt3" value="Orange" onclick="itemChecked()">
+                <label for="orange">Orange</label>
+                <img src="images/green.jpg" width="150px" height="150px">
+                <input type="checkbox" id="item4" name="tshirt4" value="Green" onclick="itemChecked()">
+                <label for="green">Green</label>
+                <img src="images/blue.jpg" width="150px" height="150px">
+                <input type="checkbox" id="item5" name="tshirt5" value="Blue" onclick="itemChecked()">
+                <label for="blue">Blue</label>
+                <img src="images/black.jpg" width="150px" height="150px">
+                <input type="checkbox" id="item6" name="tshirt6" value="Black" onclick="itemChecked()">
+                <label for="black">Black</label>
+            </fieldset>
+        </form>
+    </main>
+    <aside id="aside2">
+        <h3>Customer Info</h3>
+        <form name="info">
+            <fieldset>
+                <legend>Information</legend>
+                <br>
+                <label for="txtName">Name<span class="required">*</span> :</label>
+                <input type="text" name="name" id="txtName" autofocus><br>
+                <span id="nameError" class="errorMessage">&nbsp;</span><br>
+
+                <label for="txtAddress1">Address 1<span class="required">*</span> :</label>
+                <input type="text" name="address1" id="txtAddress1"><br>
+                <span id="addressError" class="errorMessage">&nbsp;</span><br>
+
+                <label for="txtAddress2">Address 2 :</label>
+                <input type="text" name="address2" id="txtAddress2"><br>
+                <span id="address2Error" class="errorMessage">&nbsp;</span><br>
+
+                <label for="txtCredit">Credit Card<span class="required">*</span> :</label>
+                <input type="tel" name="credit" id="credit" pattern="\d{4}[\-]\d{4}[\-]\d{4}[\-]\d{4}" title="Must be 0000-0000-0000-0000 "
+                placeholder="Card Number"><br>
+                <span id="creditError" class="errorMessage">&nbsp;</span><br>
+
+                <label for="txtEmail">E-mail<span class="required">*</span> :</label>
+                <input type="email" name="email" id="email"><br>
+                <span id="emailError" class="errorMessage">&nbsp;</span><br>
+
+                <label for="txtCity">City<span class="required">*</span> :</label>
+                <input type="city" name="city" id="txtCity"><br>
+                <span id="cityError" class="errorMessage">&nbsp;</span><br>
+
+                <label for="selProvince">Province<span class="required">*</span> :</label>
+                <select name="province" id="selProvince">
+                    <option value="">-- Select --</option>
+                    <option value="Alberta">Alberta</option>
+                    <option value="British Columbia">British Columbia</option>
+                    <option value="Manitoba">Manitoba</option>
+                    <option value="New Brunswick">New Brunswick</option>
+                    <option value="Newfoundland">Newfoundland</option>
+                    <option value="Labrador">Labrador</option>
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="Ontario">Ontario</option>
+                    <option value="Prince Edward Island">Prince Edward Island</option>
+                    <option value="Quebec">Quebec</option>
+                    <option value="Saskatchewan">Saskatchewan</option>
+                </select><br>
+                <span id="proviceError" class="errorMessage">&nbsp;</span><br>
+
+                <label for="txtPassword">Password :</label>
+                <input type="password" name="password" id="txtPassword"><br>
+                <span id="passError" class="errorMessage">&nbsp;</span><br>
+                <label for="txtConfirm">Confrim Password :</label>
+                <input type="password" name="confrimpassword" id="txtConfirm"><br>
+                <span id="confirmError" class="errorMessage">&nbsp;</span><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Order List</legend>
+                <label></label>
+                <p id="olmessage">&nbsp;</p><br>
+                <label>Select Total: </label><p id="orderTotal">&nbsp;</p>
+            </fieldset>
+            <tr>
+                <td>&nbsp;</td>
+                <td><input type="button" value="Place Order" id="btnOrder" onclick="validCheck()">&nbsp;</td>
+            </tr>
+        </form>
+    </aside>
+    <aside id="aside3">
+        <h3>Invoice</h3>
+        <h4>My Invoice</h4>
+        <table>
+            <tr>
+                <td><span id="InvoiceError">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>Name: </td>
+                <td><span id="InvoiceName">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>Address1: </td>
+                <td><span id="InvoiceAddress1">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>Address2: </td>
+                <td><span id="InvoiceAddress2">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>Credit Card: </td>
+                <td><span id="InvoiceCreditCard">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>E-mail: </td>
+                <td><span id="InvoiceEmail">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>City: </td>
+                <td><span id="InvoiceCity">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>Province: </td>
+                <td><span id="InvoiceProvince">&nbsp;</span></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><span id="InvoicePassword">&nbsp;</span></td>
+            </tr>
+        </table>
+        <form>
+            <fieldset>
+                <legend>Product Price</legend>
+                <label>Price: $</label>
+                <span id="InvoicePrice">&nbsp;</span><br>
+                <label>Tax: $</label>
+                <span id="InvoiceTax">&nbsp;</span><br>
+                <label>Total Price: $</label>
+                <span id="InvoiceTotal">&nbsp;</span><br>
+            </fieldset>
+        </form>
+    </aside>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	color:#605b4f;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: .5em;
+}
+nav {
+    border: 3px solid black;
+    width: 550px;
+    background-color: #efe9c8;
+    padding: .5em;
+}
+input {
+    margin: .2em;
+    border: 2px solid cornflowerblue;
+    padding: .2em;
+}
+h1 {
+    color: blue;
+}
+p {
+    font-weight: bold;
+}

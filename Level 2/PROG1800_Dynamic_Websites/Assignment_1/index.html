@@ -1,0 +1,138 @@
+<!---
+    Assignment - 1 
+
+    Revision History
+    Created by Byounguk Min
+    Student number 8703561
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Byounguk Min</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script>
+        function Question1()
+        {   
+            var student = confirm("Are you a Conestoga student?");
+            if (student == true)
+            {
+                document.getElementById("question1").innerHTML = "Correct"
+                document.getElementById("question1").style.color = "Blue";
+                result();
+            }
+            else 
+            {
+                document.getElementById("question1").innerText = "Incorrect";
+                document.getElementById("question1").style.color = "Red";
+                result();
+            }
+        }
+        function Question2()
+        {
+            var numeric = prompt("What is the result of the following expression: 10 + 20","")
+            while(isNaN(numeric))
+            {
+                numeric = prompt("Please enter positive number \nWhat is the result of the following expression: 10 + 20","")
+            }
+            if (numeric == 30)
+            {
+                document.getElementById("question2").innerText = "Correct";
+                document.getElementById("question2").style.color = "Blue";
+                result();
+            }
+            else
+            {
+                document.getElementById("question2").innerText = "Incorrect";
+                document.getElementById("question2").style.color = "Red";
+                result();
+            }
+        }
+        function Question3()
+        {
+            var pandemic = prompt("What is the name of the disease that is currently prevalent worldwide?","")
+            if (pandemic == 'covid-19' || pandemic == 'covid' || pandemic == 'corona' ||
+                pandemic == 'COVID-19' || pandemic == 'COVID' || pandemic == 'CORONA' ||
+                pandemic == 'Covid-19' || pandemic == 'covid19' || pandemic == 'COVID19')
+            {
+                document.getElementById("question3").innerText = "Correct";
+                document.getElementById("question3").style.color = "Blue";
+                result();
+            }
+            else
+            {
+                document.getElementById("question3").innerText = "Incorrect";
+                document.getElementById("question3").style.color = "Red";
+                result();
+            }
+        }
+        function Question4()
+        {
+            var year = prompt("What year is this year?","")
+            while(isNaN(year))
+            {
+                year = prompt("Please enter positive number","")
+            }
+            if (year == 2021)
+            {
+                document.getElementById("question4").innerText = "Correct";
+                document.getElementById("question4").style.color = "Blue";
+                result();
+            }
+            else
+            {
+                document.getElementById("question4").innerText = "Incorrect";
+                document.getElementById("question4").style.color = "Red";
+                result();
+            }
+        }
+        function Question5()
+        {
+            var numeric1 = prompt("What is the result of the following expression: 10 * 10","")
+            while(isNaN(numeric1))
+            {
+                numeric1 = prompt("Please enter positive number","")
+            }
+            if (numeric1 == 100)
+            {
+                document.getElementById("question5").innerText = "Correct";
+                document.getElementById("question5").style.color = "Blue";
+                result();
+            }
+            else
+            {
+                document.getElementById("question5").innerText = "Incorrect";
+                document.getElementById("question5").style.color = "Red";
+                result();
+            }
+        }
+        function result(){
+            var totalScore = 0;
+
+            for (var i=1; i<=5; i++)
+            {
+                if (document.getElementById("question" + i).innerHTML === "Correct")
+                {
+                    totalScore++;
+                }
+            }
+            document.getElementById("result").innerHTML = "Your Total score: " + totalScore;
+        }
+    </script>
+</head>
+<body>
+    <nav>
+    <h1>Assignment 1</h1>
+    <h2>Question</h2>
+    <p>For a True/False question, choose 'Ok' for True and 'Cancel' for False when prompte.</p>
+    <input type="button" value="Question1"  onclick = "Question1()"><span id=question1></span><br>
+    <input type="button" value="Question2"  onclick = "Question2()"><span id=question2></span><br>
+    <input type="button" value="Question3"  onclick = "Question3()"><span id=question3></span><br>
+    <input type="button" value="Question4"  onclick = "Question4()"><span id=question4></span><br>
+    <input type="button" value="Question5"  onclick = "Question5()"><span id=question5></span><br>
+    <span id=result></span>
+    </nav>
+</body>
+</html>
