@@ -1,0 +1,30 @@
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.exe.config
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.pdb
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csprojAssemblyReference.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.Properties.Resources.resources
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csproj.GenerateResource.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csproj.CoreCompileInputs.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.pdb
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment3\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.StockPortfolioTracker.resources
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.exe.config
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.exe
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.pdb
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.StockPortfolioTracker.resources
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.Properties.Resources.resources
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.exe
+\\Mac\Home\Downloads\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.pdb
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.exe.config
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.exe
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\bin\Debug\assignment3_byounguk_Min.pdb
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csprojAssemblyReference.cache
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.StockPortfolioTracker.resources
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.Properties.Resources.resources
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csproj.GenerateResource.cache
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.csproj.CoreCompileInputs.cache
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.exe
+C:\Users\minss\Desktop\assignment3_byounguk_Min\assignment3_byounguk_Min\assignment3_byounguk_Min\obj\Debug\assignment3_byounguk_Min.pdb

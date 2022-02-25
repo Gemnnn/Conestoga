@@ -1,0 +1,30 @@
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.exe.config
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.pdb
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csprojAssemblyReference.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.Properties.Resources.resources
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csproj.GenerateResource.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csproj.CoreCompileInputs.cache
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.exe
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.pdb
+C:\Users\minss\Desktop\STUDY\Conestoga\Level 2\Programming Concept 2\Assignment\Assignment4\assignment4_byounguk_min\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.StockMaintenance.resources
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.exe.config
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.exe
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.pdb
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csprojAssemblyReference.cache
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.StockMaintenance.resources
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.Properties.Resources.resources
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.exe
+\\Mac\Home\Documents\Conestoga\Winter2021\PROG1815-ProgrammingConceptsII\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.pdb
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.exe.config
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.exe
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\bin\Debug\assignment4_byounguk_min.pdb
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csprojAssemblyReference.cache
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.StockMaintenance.resources
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.Properties.Resources.resources
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csproj.GenerateResource.cache
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.csproj.CoreCompileInputs.cache
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.exe
+C:\Users\minss\Desktop\assignment4_byounguk_min(1) 2\assignment4_byounguk_min(1)\assignment4_byounguk_min\obj\Debug\assignment4_byounguk_min.pdb

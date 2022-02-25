@@ -1,0 +1,126 @@
+<%- include('_layouts/header'); -%>
+<body>
+    <%- include('_layouts/nav'); -%>
+    &nbsp;&nbsp;<h2>&nbsp;&nbsp;My Shop
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;Invoice
+    </h2>
+    <section class="design">
+        <form name="myform" method="Post" action="">
+                <label>Name<span class="require">*</span></label>
+                <input id="name" placeholder="Name" type="text" name="name"><br>
+
+                <label>Email<span class="require">*</span></label>
+                <input id="email" placeholder="email@domain.com" type="text" name="email"><br>
+            
+                <label>Phone<span class="require">*</span></label>
+                <input id="phone" placeholder="123-123-1234" type="text" name="phone"><br>
+            
+                <label>Address<span class="require">*</span></label>
+                <input id="address" type="text" name="address"><br>
+
+                <label>City<span class="require">*</span></label>
+                <input id="city" type="text" name="city"><br>
+
+                <label>Post Code<span class="require">*</span></label>
+                <input id="postcode" placeholder="X9X 9X9" type="text" name="postcode"><br>
+
+                <label>Province<span class="require">*</span></label>
+                <select name="provice" id="provice">
+                    <option value="">----- Select -----</option>
+                    <option value="alberta">Alberta</option>
+                    <option value="britishcolumbia">British Columbia</option>
+                    <option value="ontario">Ontario</option>
+                    <option value="quebec">Quebec</option>
+                    <option value="Nursing">Nursing</option>
+                </select><br>
+
+                <label>Product 1</label>
+                <input id="product1" type="text" name="product1"><br>
+                <label>Product 2</label>
+                <input id="product2" type="text" name="product2"><br>
+                <label>Product 3</label>
+                <input id="product3" type="text" name="product3"><br>
+
+                <label>Delivery Time</label>
+                <input id="delivery" placeholder="X DAYS" type="text" name="delivery"><br><br>
+
+                <input type="submit" value="Submit">
+                <p id="errors"></p>
+
+        </form>
+    </section>
+    <section class="design">
+        <nav class="formformat">
+        <%
+            if(typeof(errors) != 'undefined'){
+                for(var error of errors){
+                    %>
+                    <p class="errors"><%= error.msg %></p>
+                    <%
+                }
+            }
+            else if (typeof(totalError) != 'undefined'){
+                %>
+                <p class="errors"><%= totalError %></p>
+                <%
+            }
+        %>
+        <%
+            if(typeof(total) != 'undefined'){
+            %>
+            <table class="inputTable">
+                <tr>
+                    <th>Name :</th>
+                    <td><%= name %></td>
+                </tr>
+                <tr>
+                    <th>Email :</th>
+                    <td><%= email %></td>
+                </tr>
+                <tr>
+                    <th>Phone :</th>
+                    <td><%= phone %></td>
+                </tr>
+                <tr>
+                    <th>Delivery Address :</th>
+                    <td><%= address %>,<%= city %>,<%= province %>,<%= postcode %></td>
+                </tr>
+                <tr>
+                    <th><%= item1 %> Product 1 @ $10.00 :</th>
+                    <td>$ <%= priceItem1 %></td>
+                </tr>
+                <tr>
+                    <th><%= item2 %> Product 2 @ $20.00 :</th>
+                    <td>$ <%= priceItem2 %></td>
+                </tr>
+                <tr>
+                    <th><%= item3 %> Product 3 @ $30.00 :</th>
+                    <td>$ <%= priceItem3 %></td>
+                </tr>
+                <tr>
+                    <th>Shipping Charges :</th>
+                    <td>$ <%= shippingCharges %></td>
+                </tr>
+                <tr>
+                    <th>Sub Total :</th>
+                    <td>$ <%= pirceTotal %></td>
+                </tr>
+                <tr>
+                    <th>Taxes @ 13% :</th>
+                    <td>$ <%= tax %></td>
+                </tr>
+                <tr>
+                    <th>Total :</th>
+                    <td>$ <%= total %></td>
+                </tr>
+            </table>
+            <%
+            }
+        %>
+        </nav>
+    </section>
+</body>
+<%- include('_layouts/footer'); -%>

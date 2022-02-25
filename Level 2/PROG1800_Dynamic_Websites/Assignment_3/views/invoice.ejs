@@ -1,0 +1,33 @@
+<%- include('_layouts/header') -%>
+<main>
+    <h2>Thank you for your shopping, we hope see you soon, <%= name %></h2>
+    <h3>This is your invoice</h3>
+    <h4>Invoice</h4>
+    <table>
+        <tr>
+            <td>Name: <%= name %></td>
+        </tr>
+        <tr>
+            <td>Address: <%= address %></td>
+        </tr>
+        <tr>
+            <td>City: <%= city %></td>
+        </tr>
+        <tr>
+            <td>Province: <%= province %></td>
+        </tr>
+        <tr>
+            <td>E-mail: <%= email %></td>
+        </tr>
+        <tr>
+            <td>Phone Number: <%= number %></td>
+        </tr>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Product Price</legend>
+            <label>Price: $ <%= total %></label><br>
+            <label>Total Price: $ <%= taxTotal %></label>
+        </fieldset>
+    </form>
+</main>>

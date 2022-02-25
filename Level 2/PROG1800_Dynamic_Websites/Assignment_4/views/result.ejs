@@ -1,0 +1,57 @@
+<%- include('_layouts/header'); -%>
+<body>
+    <%- include('_layouts/nav'); -%>
+    <section>
+        <table class="resultTable">
+            <thead class="resultThead">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>Postcode</th>
+                    <th>Province</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                    <th>Price Item1</th>
+                    <th>Price Item2</th>
+                    <th>Price Item3</th>
+                    <th>Shipping Charges</th>
+                    <th>Total (without tax)</th>
+                    <th>Tax</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody class="resultTbody">
+                <%
+                    for(order of orders){
+                %>
+                <tr>
+                    <td><%= order.name %></td>
+                    <td><%= order.email %></td>
+                    <td><%= order.phone %></td>
+                    <td><%= order.address %></td>
+                    <td><%= order.city %></td>
+                    <td><%= order.postcode %></td>
+                    <td><%= order.province %></td>
+                    <td><%= order.item1 %></td>
+                    <td><%= order.item2 %></td>
+                    <td><%= order.item3 %></td>
+                    <td><%= order.priceItem1 %></td>
+                    <td><%= order.priceItem2 %></td>
+                    <td><%= order.priceItem3 %></td>
+                    <td><%= order.shippingCharges %></td>
+                    <td><%= order.pirceTotal %></td>
+                    <td><%= order.tax.toFixed(2) %></td>
+                    <td><%= order.total.toFixed(2) %></td>
+                </tr>
+                <%   
+                }
+                %>
+            </tbody>
+        </table>
+    </section>
+</body>
+<%- include('_layouts/footer'); -%>

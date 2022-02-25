@@ -1,0 +1,5 @@
+1	chin-length bob	trimmed form chin-lenght on the front to top-of-ear at the back. Back layered-cut to the neck. See Titan A.E heroine	150	60	True
+2	shag cut	A shag cut is a hairstyle that has been layered to various lenghts. It was created by the barber Paul McGregor. The layers are often featherd at the top and sides.	80	30	True
+3	eyebrow wax	Eyebrow waxing is a method of removing unwanted hair, either as a cold or hot wax. Cold wax strips are pieces of pre-waxed and ready-to-use muslin or cellulose strips that are pre-cut to different sizes according to the areas where they are meant to be used.	50	60	True
+4	eyebrow pluck-and-shape	The spot where the tweezer intersects your brow is where the hairs should end. Mark it with the eye pencil, then pluck the hairs beyond the line	25	15	True
+5	Loreal shampoo - dry hair	Hair shampoo and sulfate free shampoo for all hair types by L'Or�al Paris. Gently cleanse curly, fine, color treated, thinning, damaged and dry hair.	20	10	True

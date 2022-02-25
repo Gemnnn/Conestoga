@@ -1,0 +1,18 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "description": "Byounguk's Assignment 4",
+  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "body-parser": "*",
+    "express-validator": "*",
+    "mongoose": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Byounguk Min",
+  "license": "ISC"
+}

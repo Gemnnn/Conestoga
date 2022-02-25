@@ -1,0 +1,74 @@
+<%- include('_layouts/header') -%>
+<main>
+    <h3>Items</h3>
+    <form class="formitems" method="post" action="/order">
+        <fieldset>
+            <legend>Top</legend>
+            <h4>$6 for each T-shirt</h4>
+            <img src="images/yellow.jpg" width="130px" height="130px">
+            <input type="checkbox" id="item1" name="tshirt1" value="6">
+            <label for="yellow">Yellow</label>
+            <img src="images/purple.jpg" width="130px" height="130px">
+            <input type="checkbox" id="item2" name="tshirt2" value="6">
+            <label for="Purple">Purple</label>
+            <img src="images/orange.jpg" width="130px" height="130px">
+            <input type="checkbox" id="item3" name="tshirt3" value="6">
+            <label for="orange">Orange</label>
+            <img src="images/green.jpg" width="130px" height="130px">
+            <input type="checkbox" id="item4" name="tshirt4" value="6">
+            <label for="green">Green</label>
+            <img src="images/blue.jpg" width="130px" height="130px">
+            <input type="checkbox" id="item5" name="tshirt5" value="6">
+            <label for="blue">Blue</label>
+            <img src="images/black.jpg" width="130px" height="130px">
+            <input type="checkbox" id="item6" name="tshirt6" value="6">
+            <label for="black">Black</label>
+        </fieldset>
+
+</main>
+<aside id="aside1">
+    <h3>Customer Info</h3>
+
+        <fieldset>
+            <legend>Information</legend>
+            <br>
+            <label for="txtName">Name :</label>
+            <input type="text" name="name" id="txtName" autofocus><br><br>
+
+            <label for="txtAddress1">Address :</label>
+            <input type="text" name="address" id="txtAddress1"><br><br>
+
+            <label for="txtCity">City :</label>
+            <input type="text" name="city" id="txtCity"><br><br>
+
+            <label for="selProvince">Province :</label>
+            <input type="text" name="province" id="txtProvince"><br><br>
+
+            <label for="txtPhoneNumber">Phone number :</label>
+            <input type="text" name="number" id="number"><br><br>
+
+            <label for="txtEmail">E-mail :</label>
+            <input type="text" name="email" id="email"><br><br>
+            
+            <input type="submit" value="Place Order" id="btnOrder">
+        </fieldset><br>
+        <fieldset class="list">
+            <legend>Message</legend>
+            <% if(typeof errors !== 'undefined'){
+                var priceError;
+                for(var error of errors){
+                %>
+                    <h3 class="errorColor"><%= error.msg %></h3>
+                <%
+                }
+            }
+               else if (priceError == "Total price must be greater than $10"){
+                %>
+                    <h4 class="errorColor"><%= priceError %></h4>
+                <%
+            }
+            %>    
+        </fieldset>
+    </form>
+</aside>
+<%- include('_layouts/footer') -%>

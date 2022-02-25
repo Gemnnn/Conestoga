@@ -1,0 +1,66 @@
+body{
+    max-width: 1024px;
+    margin: 10px auto;
+	padding: 0px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main{
+    float: left;
+}
+.formitems {
+    width: 690px;
+    float: left;
+}
+
+#aside1 {
+    float: left;
+}
+
+
+.menu{
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+    border: 3px solid coral;
+    background-color: coral;
+    height: 50px;
+}
+.menu li{
+	display: inline-block;
+    text-decoration: none;
+    width: 370px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+    width: 1018px;
+    height: 400px;
+    border: 3px solid burlywood;
+}
+.mainimage {
+    width: 200px;
+    height: 200px;
+}
+.errorColor {
+    color: crimson;
+}
+#txtName, #txtAddress1, #txtCity, #txtProvince, #number, #email{
+    float: right;
+}
+
+#btnOrder{
+    color: pink;    
+    width: 290px;
+    height: 82px;
+}
+
+footer{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	border-top: 2px solid #db0066;
+	padding-top: 10px;
+}
