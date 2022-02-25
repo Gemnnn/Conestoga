@@ -1,0 +1,44 @@
+﻿@model IEnumerable<PROG2230_Byounguk_Min.Models.TransactionRecord>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h2>My Transactions</h2>
+
+<a asp-controller="TransactionRecord" asp-action="Add">Add new transaction</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CompanyModel.Ticker)</th>
+            <th>@Html.DisplayNameFor(model => model.CompanyModel.CompanyName)</th>
+            <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+            <th>@Html.DisplayNameFor(model => model.SharePrice)</th>
+            <th>@Html.DisplayNameFor(model => model.TransactionType.Commission)</th>
+            <th>Gross Value</th>
+            <th>Net Value</th>
+            <th>@Html.DisplayNameFor(model => model.TransactionType.Name)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.CompanyModel.Ticker)</td>
+                <td>@Html.DisplayFor(modelItem => item.CompanyModel.CompanyName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                <td>@Html.DisplayFor(modelItem => item.SharePrice)</td>
+                <td>@Html.DisplayFor(modelItem => item.TransactionType.Commission)</td>
+                <td>@String.Format("{0:C2}", item.CalculateGrossValue())</td>
+                <td>@String.Format("{0:C2}", item.CalculateNetValue())</td>
+                <td>@Html.DisplayFor(modelItem => item.TransactionType.Name)</td>
+                @*<td>
+                        <a asp-controller="TransactionRecord" asp-action="Edit"
+                           asp-route-id="@item.TransactionRecordId">Edit</a>
+                        <a asp-controller="TransactionRecord" asp-action="Delete"
+                           asp-route-id="@item.TransactionRecordId">Delete</a>
+                    </td>*@
+            </tr>
+        }
+    </tbody>
+</table>

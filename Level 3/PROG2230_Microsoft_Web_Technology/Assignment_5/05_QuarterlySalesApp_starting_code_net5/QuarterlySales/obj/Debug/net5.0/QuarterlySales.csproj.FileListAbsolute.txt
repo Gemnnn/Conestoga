@@ -1,0 +1,155 @@
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\appsettings.json
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.exe
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.deps.json
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.runtimeconfig.json
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.runtimeconfig.dev.json
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\ref\QuarterlySales.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.Views.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\QuarterlySales.Views.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Humanizer.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.csproj.AssemblyReference.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.AssemblyInfoInputs.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.AssemblyInfo.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.csproj.CoreCompileInputs.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.MvcApplicationPartsAssemblyInfo.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorAssemblyInfo.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorAssemblyInfo.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\staticwebassets\QuarterlySales.StaticWebAssets.Manifest.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\staticwebassets\QuarterlySales.StaticWebAssets.xml
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\scopedcss\bundle\QuarterlySales.styles.css
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.TagHelpers.input.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.TagHelpers.output.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorCoreGenerate.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\Razor\Views\Employee\Add.cshtml.g.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\Razor\Views\Sales\Add.cshtml.g.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorTargetAssemblyInfo.cache
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorTargetAssemblyInfo.cs
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.Views.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.csproj.CopyComplete
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\ref\QuarterlySales.dll
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.pdb
+C:\Conestoga\05_QuarterlySalesApp_starting_code\QuarterlySales\obj\Debug\net5.0\QuarterlySales.genruntimeconfig.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\appsettings.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.exe
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.deps.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.runtimeconfig.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.runtimeconfig.dev.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\ref\QuarterlySales.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.Views.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\QuarterlySales.Views.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Humanizer.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.csproj.AssemblyReference.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.AssemblyInfoInputs.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.AssemblyInfo.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.csproj.CoreCompileInputs.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorAssemblyInfo.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorAssemblyInfo.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\staticwebassets\QuarterlySales.StaticWebAssets.Manifest.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\staticwebassets\QuarterlySales.StaticWebAssets.xml
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\scopedcss\bundle\QuarterlySales.styles.css
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.TagHelpers.input.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.TagHelpers.output.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorCoreGenerate.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Employee\Add.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Sales\Add.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorTargetAssemblyInfo.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.RazorTargetAssemblyInfo.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.Views.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.csproj.CopyComplete
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\ref\QuarterlySales.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\QuarterlySales.genruntimeconfig.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment5\05_QuarterlySalesApp_starting_code_net5\QuarterlySales\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs

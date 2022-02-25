@@ -1,0 +1,59 @@
+﻿@model List<Tile>
+<div class="container">
+    <var class="alert-primary">
+        @TempData["ZeroTile"]
+        @TempData["ZeroTotal"]
+        @TempData["NonZeroTile"]
+        @TempData["TakeCoin"]
+    </var>
+    <h3>Current Bet: $@ViewData["currentBet"]</h3>
+
+    @if ((double)ViewData["currentBet"] > 0)
+    {
+        <a asp-action="AddCoins">
+            <input type="button" value="TAKE THE COINS!" class="btn btn-success" />
+        </a>
+
+    }
+    else if ((double)ViewData["TotalCoin"] > 0)
+    {
+        <a asp-controller="Home" asp-action="Index">
+            <input type="button" value="Try again!" class="btn btn-danger" />
+        </a>
+    }
+
+    <div class="row">
+        @foreach (var tile in Model)
+        {
+            <div class="col-2">
+                <div class="card">
+                    @if (tile.Visible == false)
+                    {
+                        <img src="~/images/unknown.png" class="card-img-top" alt="...">
+                    }
+                    else if (tile.Value == "0.00")
+                    {
+                        <img src="~/images/bust.png" class="card-img-top" alt="...">
+                    }
+                    else
+                    {
+                        <img src="~/images/money.png" class="card-img-top" alt="...">
+                    }
+                    <div class="card-body">
+                        <div>
+                            @if (tile.Visible == false)
+                            {
+                                <a asp-action="Reveal" asp-route-index="@tile.TileIndex"><input type="button" value="CHOOSE" class="btn btn-primary" /></a>
+                            }
+                            else
+                            {
+                                @tile.Value
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

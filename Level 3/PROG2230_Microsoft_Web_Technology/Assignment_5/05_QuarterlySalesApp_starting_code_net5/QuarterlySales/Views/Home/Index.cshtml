@@ -1,0 +1,88 @@
+﻿@model SalesListViewModel
+
+@{
+    ViewBag.Title = "Quarterly Sales";
+
+    RouteDictionary current = Model.CurrentRoute;
+    RouteDictionary routes = Model.CurrentRoute.Clone();
+}
+
+<h4 class="mt-2 mb-2">Quarterly Sales</h4>
+
+@* filter drop-downs *@
+<form asp-action="Filter" method="post" class="form-inline">
+
+    <label>Employee: </label>
+    <select name="filter" class="form-control m-2"
+            asp-items="@(new SelectList(Model.Employees, "EmployeeId", "Fullname", current.EmployeeFilter.ToInt()))">
+        <option value="@SalesGridDTO.DefaultFilter">All</option>
+    </select>
+
+    <label>Year: </label>
+    <select name="filter" class="form-control m-2"
+            asp-items="@(new SelectList(Model.Years, current.YearFilter.ToInt()))">
+        <option value="@SalesGridDTO.DefaultFilter">All</option>
+    </select>
+
+    <label>Quarter: </label>
+    <select name="filter" class="form-control m-2"
+            asp-items="@(new SelectList(Model.Quarters, current.QuarterFilter.ToInt()))">
+        <option value="@SalesGridDTO.DefaultFilter">All</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary mr-2">Filter</button>
+    <button type="submit" class="btn btn-primary" name="clear" value="true">Clear</button>
+</form>
+
+@* sales table *@
+<table class="table">
+    <thead>
+        @* sorting links *@
+        <tr>
+            <th>
+                @{ routes.SetSortAndDirection(nameof(Sales.Year), current); }
+                <a asp-action="Index" asp-all-route-data="@routes">Year</a>
+            </th>
+            <th>
+                @{ routes.SetSortAndDirection(nameof(Sales.Quarter), current); }
+                <a asp-action="Index" asp-all-route-data="@routes">Quarter</a>
+            </th>
+            <th>
+                @{ routes.SetSortAndDirection(nameof(Employee), current); }
+                <a asp-action="Index" asp-all-route-data="@routes">Employee</a>
+            </th>
+            <th>
+                @{ routes.SetSortAndDirection(nameof(Sales.Amount), current); }
+                <a asp-action="Index" asp-all-route-data="@routes">Amount</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Sales sales in Model.Sales)
+        {
+            <tr>
+                <td>@sales.Year</td>
+                <td>@sales.Quarter</td>
+                <td>@sales.Employee.Fullname</td>
+                <td>@sales.Amount?.ToString("c")</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total Sales</td>
+            <td>@Model.Sales.Sum(m => m.Amount)?.ToString("c")</td>
+        </tr>
+    </tfoot>
+</table>
+
+@* paging links *@
+@{
+    routes = Model.CurrentRoute.Clone(); @* Reset to current route values *@
+    for (int i = 1; i <= Model.TotalPages; i++)
+    {
+        routes.PageNumber = i;
+        <a asp-action="Index" asp-all-route-data="@routes"
+           class="btn btn-outline-primary @(i == current.PageNumber ? "active": "")">@i</a>
+    }
+}

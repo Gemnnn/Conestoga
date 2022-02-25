@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = PROG2230_AS1_BMin
+build_property.ProjectDir = C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\Microsoft Web Technologies\Assignment1\PROG2230_AS1_BMin\PROG2230_AS1_BMin\

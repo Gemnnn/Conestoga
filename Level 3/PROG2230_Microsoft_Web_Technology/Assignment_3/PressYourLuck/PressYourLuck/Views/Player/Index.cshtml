@@ -1,0 +1,33 @@
+﻿@model PressYourLuck.Models.Player
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Welcome to Press Your Luck!</h2>
+
+<p>Please entehr your name and the number of coins you have to get started.</p>
+@if (TempData["CashOut"] != null)
+            {
+                <var class="alert-primary">@TempData["CashOut"]</var>
+            }
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PlayerName" class="control-label"></label>
+                <input asp-for="PlayerName" class="form-control" />
+                <span asp-validation-for="PlayerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalCoins" class="control-label"></label>
+                <input asp-for="TotalCoins" class="form-control" />
+                <span asp-validation-for="TotalCoins" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Join the Game!" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+

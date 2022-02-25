@@ -1,0 +1,94 @@
+﻿@model IEnumerable<PROG2230_AS4_BMin3561.Models.Generated.Vendor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Add New Vendor</a>&nbsp;
+    <a>@Html.Raw(@ViewBag.Message)</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VendorName)
+            </th>
+            <th>
+                Address
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (item.IsDeleted)
+            {
+            }
+            else if((string)ViewData["start"] == item.getStart(item.VendorName))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VendorName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VendorAddress1) <label>, </label>
+                        @Html.DisplayFor(modelItem => item.VendorCity)
+                    </td>
+                    <td>
+                        <a asp-action="Invoice" asp-route-vendorId="@item.VendorId">invoice</a> |
+                        <a asp-action="Edit" asp-route-vendorId="@item.VendorId">Edit</a> |
+                        <a asp-action="Delete" asp-route-vendorId="@item.VendorId">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a class="btn
+       @if ((string)ViewData["start"] == "A")
+       {
+           @Html.Raw("btn-outline-danger")
+       }
+       else
+       {
+           @Html.Raw("btn-outline-primary")
+       }
+    " asp-action="Index" asp-route-start="A">A - E</a>
+    <a class="btn
+       @if ((string)ViewData["start"] == "F")
+       {
+           @Html.Raw("btn-outline-danger")
+       }
+       else
+       {
+           @Html.Raw("btn-outline-primary")
+       }
+    " asp-action="Index" asp-route-start="F">F - K</a>
+    <a class="btn
+       @if ((string)ViewData["start"] == "L")
+       {
+           @Html.Raw("btn-outline-danger")
+       }
+       else
+       {
+           @Html.Raw("btn-outline-primary")
+       }
+    " asp-action="Index" asp-route-start="L">L - R</a>
+    <a class="btn
+       @if ((string)ViewData["start"] == "S")
+       {
+           @Html.Raw("btn-outline-danger")
+       }
+       else
+       {
+           @Html.Raw("btn-outline-primary")
+       }
+    " asp-action="Index" asp-route-start="S">S - Z</a>
+</div>
+
+

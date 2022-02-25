@@ -1,0 +1,17 @@
+﻿@model TransactionRecord
+@{ 
+    ViewBag.Title = "Delete Transaction";
+}
+
+<h2>Confirm Deletion</h2>
+<h3>@Model.Quantity shares of @Model.CompanyName (@Model.TickerSymbol) - share price: @Model.SharePrice</h3>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="TransactionRecordId" />
+
+    <button type="submit" class="btn btn-primary">
+        Delete
+    </button>
+    <a asp-controller="Home" asp-action="Index"
+       class="btn btn-primary">Cancel</a>
+</form>

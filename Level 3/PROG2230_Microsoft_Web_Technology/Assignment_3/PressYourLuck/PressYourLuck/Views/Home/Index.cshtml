@@ -1,0 +1,24 @@
+﻿@model Bet
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Welcome, @ViewData["userName"]!</h2>
+@TempData["CashOut"]
+<p>How many coins would you like to wager?</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="CurrentBet" class="form-control" />
+                <span asp-validation-for="CurrentBet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Start Playing!" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+

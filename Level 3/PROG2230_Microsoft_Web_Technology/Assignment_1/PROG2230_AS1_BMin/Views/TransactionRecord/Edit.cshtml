@@ -1,0 +1,55 @@
+﻿@model TransactionRecord
+@{ 
+    string title = ViewBag.Action + "Transaction";
+    ViewBag.Title = title;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All"
+         class="text-danger">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TickerSymbol">Ticker symbol</label>
+        <input asp-for="TickerSymbol" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TransactionTypeId">Transaction Type</label>
+        <select asp-for="TransactionTypeId" class="form-control">
+            <option value="">select a type</option>
+            @foreach (TransactionType g in ViewBag.TransactionTypes)
+            {
+                <option value="@g.TransactionTypeId">
+                    @g.Name
+                </option>
+            }
+        </select>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CompanyName">Company name</label>
+        <input asp-for="CompanyName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity">Quantity</label>
+        <input asp-for="Quantity" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SharePrice">Share price</label>
+        <input asp-for="SharePrice" class="form-control" />
+    </div>
+
+    <input type="hidden" asp-for="TransactionRecordId" />
+
+    <button type="submit" class="btn btn-primary">
+        @ViewBag.Action
+    </button>
+    <a asp-controller="Home" asp-action="Index"
+       class="btn btn-primary">Cancel</a>
+</form>

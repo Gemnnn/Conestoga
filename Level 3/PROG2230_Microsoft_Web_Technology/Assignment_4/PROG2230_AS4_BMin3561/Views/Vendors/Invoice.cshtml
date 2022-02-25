@@ -1,0 +1,256 @@
+﻿@model PROG2230_AS4_BMin3561.Models.Generated.ViewModel
+
+@{
+    ViewData["Title"] = "Invoice";
+}
+
+
+<h1>Invoice for @Model.ViewVendor.VendorName</h1>
+<a class="float-right" asp-action="Index" asp-route-start="@ViewData["GroupName"]">
+    Return to
+    @if ((string)ViewData["GroupName"] == "A")
+    {
+        <label>A-E</label>
+    }
+    else if ((string)ViewData["GroupName"] == "F")
+    {
+        <lable>F-K</lable>
+    }
+    else if ((string)ViewData["GroupName"] == "L")
+    {
+        <lable>L-R</lable>
+    }
+    else
+    {
+        <label>S-Z</label>
+    }
+</a>
+<h4>
+    Address: @Model.ViewVendor.VendorAddress1<label>, </label>
+    @Model.ViewVendor.VendorCity
+</h4>
+<h4>Terms: @Model.ViewTerm.TermsDueDays days</h4>
+
+<div class="float-left">
+    <label>Invoices:</label><br />
+    @{ int tempInvoiceId = 0; }
+    @foreach (var item in Model.ViewInvoices)
+    {
+        <a asp-action="Invoice" asp-route-vendorId="@Model.ViewVendor.VendorId" asp-route-invoiceId="@item.InvoiceId">@item.InvoiceNumber</a><br />
+    }
+</div>
+
+<div class="float-right">
+    <label>Line items for Invoice @ViewData["InvoiceNumber"]</label>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Discripstion
+                </th>
+                <th>
+                    Amount
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ViewInvoiceLineItems)
+            {
+                <tr>
+                    <td>
+                        @item.LineItemDescription
+                    </td>
+                    <td>
+                        @item.LineItemAmount
+                    </td>
+                </tr>
+                tempInvoiceId = item.InvoiceId;
+            }
+            <tr>
+                <td>Total</td>
+                <td>
+
+                    @foreach (var item in Model.ViewInvoices)
+                    {
+                        if (item.InvoiceNumber == (string)ViewData["InvoiceNumber"])
+                        {
+                            @Html.Raw(item.InvoiceTotal);
+                        }
+                    }
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <form asp-action="Invoice" asp-route-vendorId="@Model.ViewVendor.VendorId">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <input type="hidden" asp-for="@Model.ViewInvoiceLineItem.InvoiceId" value="@tempInvoiceId"class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="hidden" asp-for="@Model.ViewInvoiceLineItem.InvoiceSequence" value="1" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="hidden" asp-for="@Model.ViewInvoiceLineItem.AccountNumber" value="@Model.ViewVendor.DefaultAccountNumber"class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ViewInvoiceLineItem.LineItemDescription" class="control-label"></label>
+            <input asp-for="@Model.ViewInvoiceLineItem.LineItemDescription" class="form-control" />
+            <span asp-validation-for="@Model.ViewInvoiceLineItem.LineItemDescription" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ViewInvoiceLineItem.LineItemAmount" class="control-label"></label>
+            <input asp-for="@Model.ViewInvoiceLineItem.LineItemAmount" class="form-control" />
+            <span asp-validation-for="@Model.ViewInvoiceLineItem.LineItemAmount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Add new line item" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+
+@*@foreach (var item in Model)
+            {
+        <p>
+            Address: @Html.DisplayFor(modelItem => item.VendorAddress1)<label>, </label>
+            @Html.DisplayFor(modelItem => item.VendorCity)
+        </p>
+            }
+
+                @foreach (var item in Model)
+    {
+        <p class="float-left">
+            Terms: @Html.DisplayFor(modelItem => item.TermsDueDays) <label>days</label>
+        </p>
+    }*@
+
+
+@*<div>
+        <label>Invoices:</label>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                Enum
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(modelItem => item.VendorName)
+                    </th>
+                    <th>
+                        Address
+                    </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (item.IsDeleted)
+                {
+                }
+                else if ((string)ViewData["start"] == item.getStart(item.VendorName))
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.VendorName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.VendorAddress1) <label>, </label>
+                            @Html.DisplayFor(modelItem => item.VendorCity)
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.VendorId">invoice</a> |
+                            <a asp-action="Edit" asp-route-id="@item.VendorId">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.VendorId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>*@
+
+
+
+@*<div>
+        <h4>Vendor</h4>
+        <hr />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorName)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorName)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorAddress1)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorAddress1)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorAddress2)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorAddress2)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorCity)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorCity)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorState)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorState)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorZipCode)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorZipCode)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorPhone)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorPhone)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorContactLastName)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorContactLastName)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorContactFirstName)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorContactFirstName)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.VendorContactEmail)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.VendorContactEmail)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.IsDeleted)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.DefaultAccountNumberNavigation)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.DefaultAccountNumberNavigation.AccountNumber)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.DefaultTerms)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.DefaultTerms.TermsDescription)
+            </dd>
+        </dl>
+    </div>*@
+

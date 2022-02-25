@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        @* based on default navbar that comes with MVC template *@
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav mr-auto">
+                        @using Microsoft.AspNetCore.Identity
+                        @inject SignInManager<User> signInManager
+                        <li class="nav-item">
+                            @* go to action method that clears route segments and then loads home page *@
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Clear">Home</a>
+                        </li>
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Sales" asp-action="Add">Add Sales</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Employee" asp-action="Add">Add Employee</a>
+                            </li>
+
+                        }
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark">Welcome, @User.Identity.Name</a>
+                            </li>
+                        }
+                        else
+                        {
+                            // get current action
+                            var action = ViewContext.RouteData.Values["action"]?.ToString();
+
+                            // anonymous user - Register link and Log In button
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Account" asp-action="Register">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-action="Login" asp-controller="Account"
+                                   asp-area="" class="btn btn-outline-dark">Log In</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="User" asp-action="Index">Manage Users</a>
+                            </li>
+
+                        }
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <form method="post" asp-action="Logout"
+                                      asp-controller="Account" asp-area="">
+                                    <input type="submit" value="Log Out"
+                                           class="btn btn-outline-dark" />
+                                </form>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @if (TempData.Keys.Contains("message"))
+            {
+                <h2 class="bg-light text-center p-2 mb-2">@TempData["message"]</h2>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

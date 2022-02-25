@@ -1,0 +1,81 @@
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.AssemblyInfoInputs.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.AssemblyInfo.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.csproj.CoreCompileInputs.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorAssemblyInfo.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorAssemblyInfo.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\appsettings.json
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.exe
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.deps.json
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.runtimeconfig.json
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.runtimeconfig.dev.json
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.dll
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\ref\PressYourLuck.dll
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.pdb
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.Views.dll
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.Views.pdb
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\staticwebassets\PressYourLuck.StaticWebAssets.Manifest.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\staticwebassets\PressYourLuck.StaticWebAssets.xml
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\scopedcss\bundle\PressYourLuck.styles.css
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.TagHelpers.input.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.TagHelpers.output.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorCoreGenerate.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Game\Index.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorTargetAssemblyInfo.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorTargetAssemblyInfo.cs
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.Views.pdb
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.dll
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\ref\PressYourLuck.dll
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.pdb
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.genruntimeconfig.cache
+C:\Users\Professor Rob\source\repos\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.csproj.CopyComplete
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.csproj.AssemblyReference.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.AssemblyInfoInputs.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.AssemblyInfo.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.csproj.CoreCompileInputs.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorAssemblyInfo.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorAssemblyInfo.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\staticwebassets\PressYourLuck.StaticWebAssets.Manifest.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\staticwebassets\PressYourLuck.StaticWebAssets.xml
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\scopedcss\bundle\PressYourLuck.styles.css
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.TagHelpers.input.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.TagHelpers.output.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorCoreGenerate.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Game\Index.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Player\Index.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorTargetAssemblyInfo.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.RazorTargetAssemblyInfo.cs
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\ref\PressYourLuck.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\appsettings.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.exe
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.deps.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.runtimeconfig.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.runtimeconfig.dev.json
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\ref\PressYourLuck.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.Views.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\PressYourLuck.Views.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.Views.pdb
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.genruntimeconfig.cache
+C:\Users\NA\Desktop\새 폴더\Conestoga\Level 3\2330_Microsoft Web Technologies\Assignment3\03_PressYourLuck_Base\PressYourLuck - Starting Code\PressYourLuck\PressYourLuck\obj\Debug\net5.0\PressYourLuck.csproj.CopyComplete
