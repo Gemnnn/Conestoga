@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Testing MultiColumn content</title>
+        <!--jQuery-->
+        <script src="js/lib/jquery-2.1.4.js"></script>
+        <!--jQuery mobile-->
+        <script src="js/lib/jquery.mobile-1.4.5.js"></script>
+        <!--jQuery mobile css-->
+        <link rel="stylesheet" type="text/css" href="css/lib/jquery.mobile-1.4.5.css">
+        <!--our scripts-->
+        <script src="js/camera.js"></script>
+        <script src="js/global.js"></script>
+
+        <script type="text/javascript" src="cordova.js"></script>
+
+    </head>
+    <body>
+        <div id="pageCamera" data-role="page">
+            <header data-role="header" data-theme="a" data-position="fixed">
+                <h1> Our cool camera app </h1>
+            </header>
+            <section data-role="content">
+                <button type="button" id="btnCapturePhoto" name="btnCapturePhoto" data-icon="plus"
+                        data-iconpos="left"
+                        data-theme="a" data-inline="false" class="ui-btn-active">Capture Photo
+                </button>
+                <button type="button" id="btnCapturePhotoEdit" name="btnCapturePhotoEdit" data-icon="plus"
+                        data-iconpos="left"
+                        data-theme="a" data-inline="false">Capture Editable Photo
+                </button>
+                <button type="button" id="btnLoadFromLibrary" name="btnLoadFromLibrary" data-icon="plus"
+                        data-iconpos="left"
+                        data-theme="a" data-inline="false">Load from Photo Library
+                </button>
+
+                <label id="lblMessage"></label>
+
+                <img id="imgSnap" name="imgSnap" src="" width="100%" height="100%" alt="Photo loads here">
+            </section>
+            <footer data-role="footer" data-theme="a" data-position="fixed">
+                <h1> &copy; Jason Bourne </h1>
+            </footer>
+        </div>
+    </body>
+</html>
