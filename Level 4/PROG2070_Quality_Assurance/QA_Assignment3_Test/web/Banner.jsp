@@ -25,7 +25,7 @@
                     <a href="index.jsp">Home</a>
                 </li>
                 <li>
-                    <a href="List.jsp">List</a>
+                    <a href="information.jsp">Information</a>
                 </li>
             </ul>
         </nav>

@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>QA Assignment3 Test Website</title>
     </head>
     <body>
         <section id="mainSection">

@@ -372,6 +372,18 @@ section .container {
     margin: 10rem auto;
 }
 
+.form-control input,
+.form-control select,
+#jdPower {
+    width: 200px;
+    font-size: small;
+}
+
+#jdPower {
+    align-self: center;
+    text-transform: lowercase !important;
+}
+
 /* Section */
 lable{
     margin: 0;
