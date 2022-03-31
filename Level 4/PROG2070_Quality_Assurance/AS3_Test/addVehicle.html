@@ -28,7 +28,7 @@ email: bmin3561@conestogac.on.ca
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="list.html">View</a>
+                    <a href="list.html">List</a>
                 </li>
             </ul>
         </nav>
@@ -38,6 +38,7 @@ email: bmin3561@conestogac.on.ca
                 <div class="content">
                     <form id="addVehicleForm">
                         <h2>Information</h2>
+                        <div>
                         <div class="form-control">
                             <label for="txtFirstName">First Name</label>
                             <input type="text" id="txtFirstName" name="txtFirstName"  />
@@ -84,29 +85,32 @@ email: bmin3561@conestogac.on.ca
                             <label for="txtEmail">Email</label>
                             <input type="text" id="txtEmail" name="txtEmail"  />
                         </div>
-
+                        </div>
                         <h2>Vehicle Information</h2>
-                        <div class="form-control">
-                            <label for="txtMake">Make</label>
-                            <input type="text" id="txtMake" name="txtMake"  />
+                        <div>
+                            <div class="form-control">
+                                <label for="txtMake">Make</label>
+                                <input type="text" id="txtMake" name="txtMake"  />
+                            </div>
+                            <div class="form-control">
+                                <label for="txtModel">Model</label>
+                                <input type="text" id="txtModel" name="txtModel"  />
+                            </div>
+                            <div class="form-control">
+                                <label for="txtYear">Year</label>
+                                <input type="text" id="txtYear" name="txtYear"  />
+                            </div>
                         </div>
-                        <div class="form-control">
-                            <label for="txtModel">Model</label>
-                            <input type="text" id="txtModel" name="txtModel"  />
-                        </div>
-                        <div class="form-control">
-                            <label for="txtYear">Year</label>
-                            <input type="text" id="txtYear" name="txtYear"  />
-                        </div>
-
-                        <label> </label>
-                        <input type="submit" name="Submit" value="Submit">
+                        <button type="submit">Submit</button>
 
                     </form>
                     <p class="error"></p>
                 </div>
             </div>
         </section>
-        <script src="./src/pages/addVechicle.js" type="module"></script>
+        <script src="./pages/addVehicle.js" type="module"></script>
     </body>
+    <footer>
+        <p>&copy Copyright 2022 Byounguk Min</p>
+    </footer>
 </html>

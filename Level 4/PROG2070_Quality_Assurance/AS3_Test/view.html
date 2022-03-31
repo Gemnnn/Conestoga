@@ -28,7 +28,7 @@ email: bmin3561@conestogac.on.ca
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="list.html">View</a>
+                    <a href="list.html">List</a>
                 </li>
             </ul>
         </nav>
@@ -38,6 +38,7 @@ email: bmin3561@conestogac.on.ca
                 <div class="content">
                     <form id="addVehicleForm">
                         <h2>Information</h2>
+                        <div>
                         <div class="form-control">
                             <label for="txtFirstName">First Name</label>
                             <input type="text" id="txtFirstName" name="txtFirstName" disabled />
@@ -84,8 +85,10 @@ email: bmin3561@conestogac.on.ca
                             <label for="txtEmail">Email</label>
                             <input type="text" id="txtEmail" name="txtEmail" disabled />
                         </div>
+                        </div>
 
                         <h2>Vehicle Information</h2>
+                        <div>
                         <div class="form-control">
                             <label for="txtMake">Make</label>
                             <input type="text" id="txtMake" name="txtMake" disabled />
@@ -103,11 +106,15 @@ email: bmin3561@conestogac.on.ca
                             <label for="jdPower">JD Power</label>
                             <a id="jdPower" href="#"></a>
                         </div>
+                        </div>
                     </form>
                     <p class="error"></p>
                 </div>
             </div>
         </section>
-        <script src="./src/pages/view.js" type="module"></script>
+        <script src="./pages/view.js" type="module"></script>
     </body>
+    <footer>
+        <p>&copy Copyright 2022 Byounguk Min</p>
+    </footer>
 </html>
