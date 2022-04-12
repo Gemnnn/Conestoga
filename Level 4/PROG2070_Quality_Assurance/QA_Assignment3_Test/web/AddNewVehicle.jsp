@@ -81,7 +81,7 @@
                         </div>
 
                         <label> </label>
-                        <input type="submit" name="Submit" value="Submit" class="btn-primary">
+                        <input type="submit" name="Submit" value="Submit">
                         <%
                             if (null != request.getAttribute("message")) {
                                 out.println(request.getAttribute("message"));
