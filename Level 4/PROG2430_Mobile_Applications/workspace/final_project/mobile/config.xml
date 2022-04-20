@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Final Project App</name>
+    <description>Final Project app made from Angular project</description>
+    <author email="bmin3561@conestogac.on.ca" href="https://www.conestogac.on.ca/">
+        Byounguk Min
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <icon src="icon.png" />
+    <splash src="splash.png" />
+</widget>

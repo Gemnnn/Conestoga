@@ -1,0 +1,46 @@
+<div class="m-4">
+  <div class="card">
+    <div class="card-header">
+      <h2>Add a comment</h2>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="addForm">
+        <div class="mb-3">
+          <label for="txtName" class="form-label">Name</label>
+          <input type="text" id="txtName" name="txtName" formControlName="_name"
+                 class="form-control" [(ngModel)]="note.name">
+          <div *ngIf="addForm.controls['_name'].invalid && (addForm.controls['_name'].touched
+                            || addForm.controls['_name'].dirty)">
+            <small class="text-danger" *ngIf="addForm.controls['_name'].errors['required']">
+              Name is required</small>
+            <small class="text-danger" *ngIf="addForm.controls['_name'].errors['minlength']">
+              Name must be at least 1 char long</small>
+            <small class="text-danger" *ngIf="addForm.controls['_name'].errors['maxlength']">
+              Name must be at most 20 char long</small>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="txtContent" class="form-label">Content</label>
+          <input type="text" id="txtContent" name="txtContent" formControlName="_content"
+                 class="form-control" [(ngModel)]="note.content">
+          <div *ngIf="addForm.controls['_content'].invalid && (addForm.controls['_content'].touched
+                            || addForm.controls['_content'].dirty)">
+            <small class="text-danger" *ngIf="addForm.controls['_content'].errors['required']">
+              Content is required</small>
+            <small class="text-danger" *ngIf="addForm.controls['_content'].errors['maxlength']">
+              Content must be at most 200 char long</small>
+          </div>
+        </div>
+
+        <button type="submit" id="btnAdd" name="btnAdd"
+                class="btn btn-primary"
+                (click)="btnAdd_click()">
+          Add
+        </button>
+      </form>
+    </div>
+    <div class="card-footer">
+    </div>
+  </div>
+</div>

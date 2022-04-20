@@ -1,0 +1,10 @@
+img{
+  width: 100px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.card-body{
+  float: left;
+}

@@ -1,0 +1,30 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="page-content container note-has-grid">
+  <a class="btn btn-primary" routerLink="/add">Add note</a>
+
+  <div class="tab-content bg-transparent">
+    <div id="note-full-container" class="note-has-grid row">
+      <div class="col-md-4 single-note-item all-category" style="">
+        <h3>Board</h3>
+        <h6>Add your comment</h6>
+        <div *ngFor="let note of notes" class="card card-body">
+          <span class="side-stick"></span>
+          <h5 class="note-title text-truncate w-75 mb-0">{{note.name}}</h5>
+          <div class="note-content">
+            <p class="note-inner-content text-muted">{{note.content}}</p>
+          </div>
+          <div class="d-flex align-items-center" id="function-button">
+            <button type="button" id="btnModify" name="btnModify" (click)="btnModify_click(note)"
+            class="btn btn-warning">
+              <span class="mr-1"><i class="fa fa-pencil pencil-note"></i></span>
+            </button>
+            <button type="button" id="btnDelete" name="btnDelete" (click)="btnDelete_click(note)"
+            class="btn btn-danger">
+              <span class="mr-1"><i class="fa fa-trash remove-note"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
